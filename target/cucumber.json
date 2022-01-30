@@ -1,0 +1,111 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-19T17:44:54.072Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1634100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User search for wooden spoon",
+        "description": "",
+        "id": "user-etsy-search;user-search-for-wooden-spoon",
+        "after": [
+          {
+            "result": {
+              "duration": 501000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6307546500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on etsy homepage",
+            "match": {
+              "location": "com.cybertek.step_definitions.EtsySearchStepsDefs.user_is_on_etsy_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9005200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Page title should be as expected",
+            "match": {
+              "location": "com.cybertek.step_definitions.EtsySearchStepsDefs.page_title_should_be_as_expected()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2746860800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User searches for wooden spoon",
+            "match": {
+              "location": "com.cybertek.step_definitions.EtsySearchStepsDefs.user_searches_for_wooden_spoon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3017012500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Page title should start with wooden spoon",
+            "match": {
+              "location": "com.cybertek.step_definitions.EtsySearchStepsDefs.page_title_should_start_with_wooden_spoon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@etsy"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "User etsy search",
+    "description": "  As a user, when i search for item,I should see the results.",
+    "id": "user-etsy-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/etsySearch.feature",
+    "tags": [
+      {
+        "name": "@etsy",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
